@@ -1,0 +1,193 @@
+html{
+    direction: rtl;
+}
+
+.nav .contact i span a {
+    margin-right: 35px;
+}
+.about__flex,
+.career__rev{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.about__flex p{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.career__left{
+    padding-left: 0px !important;
+}
+.tab__content{
+    text-align: right;
+}
+.apps__links img{
+    height: 40px;
+    margin: 20px 0px 0px 30px;
+}
+form label {
+    right: 0px;
+}
+.label{
+    right: 25px;
+}
+form div::after{
+    right: 2px;
+}
+form div::before{
+    left: 3px;
+}
+.error{
+    text-align: right;
+}
+.list{
+    margin-right: 40px;
+}
+.orededList{
+    padding-right: 0px;
+}
+
+
+.text h1,.text h2, .text p{
+    text-align: right !important;
+}
+.homeTitle{
+    font-size: 30px !important;
+}
+
+
+
+form div::before {
+    width: calc(100% - 120px) !important;
+    right: 117px !important;
+}
+form div.arphonee::before{
+    width: calc(100% - 130px) !important;
+    right: 126px !important;
+    top: 0px !important;
+}
+.form-container button{
+    padding-bottom: 6px !important;
+}
+.btns-container {
+    left: 0px;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+.article .bottom p:last-child{
+    margin-right: -30px;
+}
+.article .article_top .info{
+    padding-left: 30px;
+    padding-right: 0px;
+}
+.intern__card .card__top .intern__info{
+    padding-left: 0px;
+    padding-right: 30px;
+}
+@media (max-width:1020px) {
+    .career .info{
+        padding-right: 15px;
+    }
+    .career__left{
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 992px) {
+    .intern__card .card__top .intern__info{
+        padding: 0px !important;
+    }
+    .article{
+        text-align: right !important;
+    }
+    .article .bottom p:last-child{
+        margin-right: 0px;
+    }
+    .text h1,.text h2, .text p{
+        text-align: center !important;
+    }
+    .hiden {
+        right: -100%;
+    }
+
+    .hiden2 {
+        left: 100%;
+    }
+    .visible {
+        left: 0;
+    }
+    .visible2{
+        right: 0 !important;
+    }
+    .small__card{
+        margin-right: 0px !important;
+    }
+    .small__card div:first-child{
+
+        margin-right: -2px ;
+    }
+    .small__card div:last-child{
+        margin-right: 7px !important;
+    }
+    .small__card h5{
+        text-align: right !important;   
+    }
+    
+    .small__card p{
+        
+        text-align: right !important;
+    }
+    .big-card-discription{
+        text-align: right !important;
+    }
+    
+    .small__card img{
+        height: 100% !important;
+        margin-right: -2px !important;
+        margin-left: 4px !important;
+    }
+}
+@media (max-width:930px) {
+    .career .info{
+        text-align: right;
+    }
+    .career .img {
+        width: 95% !important;
+        padding: 0px !important;
+        height: fit-content !important;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+    .career .img img {
+        width: 100% !important;
+        height: fit-content !important;
+        text-align: center;
+        border-radius: 20px !important;
+        padding: 0px !important;
+        margin: 0px !important;
+        margin-top: 0px !important;
+        margin: auto !important;
+    }
+    .career__rev {
+        padding-left: 0px;
+        flex-direction: column!important;
+    }
+    .height .work-headers .header-p{
+        font-size: 20px !important;
+        font-weight: 700 !important;
+    }
+
+}
+@media (max-width:590px) {
+    .height .work-headers .header-p{
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width:350px) {
+    .height .work-headers .header-p{
+        font-size: 12px !important;
+        font-weight: 700 !important;
+    }
+}
